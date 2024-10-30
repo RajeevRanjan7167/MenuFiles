@@ -1,4 +1,8 @@
-<DayPickerRangeController            
+return (
+    <div className="App">
+      <h1>Hello Date Picker</h1>
+
+      <DayPickerRangeController            
       onDatesChange={(newDate) => setDate1(newDate)}
       focused={true}
       onFocusChange={({focused}) => focused}
@@ -27,3 +31,4 @@
             </select>
           </div>
         </div>
+      )}
